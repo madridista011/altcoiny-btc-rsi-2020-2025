@@ -8,6 +8,8 @@ Czy zakup pięciu największych kwalifikujących się altcoinów po sygnale wypr
 
 ## Zobacz projekt
 
+**[Otwórz interaktywne portfolio →](https://madridista011.github.io/altcoiny-btc-rsi-2020-2025/)** — raport, dashboardy i komplet materiałów do pobrania w jednym miejscu.
+
 | Materiał | Co znajdziesz |
 | --- | --- |
 | **[Pełny raport PDF](raport/RAPORT.pdf)** | 27 stron: cel, dane, metodologia, wyniki, pięć wykresów i ograniczenia. |
@@ -15,7 +17,7 @@ Czy zakup pięciu największych kwalifikujących się altcoinów po sygnale wypr
 | **[Dashboardy Tableau](tableau/Altcoiny_RSI_BTC.twbx)** | Dwa dashboardy, siedem wykresów i osadzone dane. [Instrukcja](tableau/INSTRUKCJA.md). |
 | [Prezentacja projektu](prezentacja/Prezentacja.pptx) | Osiem slajdów, trzy edytowalne wykresy i notatki. [Podgląd slajdów](prezentacja/README.md). |
 | [Tabele wynikowe](data/analysis) | Wyniki transakcji, koszyków, kosztów i obsunięcia kapitału w CSV. |
-| [Uruchomienie interaktywnej strony](docs/ODTWORZENIE.md#interaktywna-strona-projektu) | Porównanie reguł wejścia i wykres obsunięcia dla wybranego sygnału. |
+| **[Interaktywna strona projektu](https://madridista011.github.io/altcoiny-btc-rsi-2020-2025/)** | Porównanie reguł wejścia i wykres obsunięcia dla wybranego sygnału. [Uruchomienie lokalne](docs/ODTWORZENIE.md#interaktywna-strona-projektu). |
 
 ![Podgląd interaktywnego porównania koszyka altcoinów z BTC](assets/dashboard.png)
 
