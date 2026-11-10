@@ -1,0 +1,46 @@
+[
+  {
+    "asset_id": "bitcoin_sv",
+    "symbol": "BSV-USDT",
+    "path": "data/raw/identity_checks/kucoin_bsv_probe.json",
+    "startAt": 1584057600,
+    "endAt": 1602374399,
+    "url": "https://api.kucoin.com/api/v1/market/candles?symbol=BSV-USDT&type=1day&startAt=1584057600&endAt=1602374399",
+    "sha256": "48c7f211680b1eb7997b08102519c05c87b92d7323d72befe7162016d042ca8c",
+    "rows": 212,
+    "captured_at_utc_from_file_mtime": "2026-11-08T12:46:55.979810+00:00"
+  },
+  {
+    "asset_id": "toncoin",
+    "symbol": "GRAM-USDT",
+    "path": "data/raw/identity_checks/kucoin_gram_probe.json",
+    "startAt": 1719273600,
+    "endAt": 1741219199,
+    "url": "https://api.kucoin.com/api/v1/market/candles?symbol=GRAM-USDT&type=1day&startAt=1719273600&endAt=1741219199",
+    "sha256": "b233a7fe977616b36bd1f47659e0d3274d2462f9aa67814622c17b3c30a7938f",
+    "rows": 254,
+    "captured_at_utc_from_file_mtime": "2026-11-08T12:51:43.186447+00:00"
+  },
+  {
+    "asset_id": "bitcoin",
+    "symbol": "BTC-USDT",
+    "path": "data/raw/kucoin/2026-11-08/btc_2020.json",
+    "startAt": 1584057600,
+    "endAt": 1602374399,
+    "url": "https://api.kucoin.com/api/v1/market/candles?symbol=BTC-USDT&type=1day&startAt=1584057600&endAt=1602374399",
+    "sha256": "081e06b2e5ab1839030271f92e1735237d48b1a490fa090bcdd71e42df33764c",
+    "rows": 212,
+    "captured_at_utc_from_file_mtime": "2026-11-08T12:57:01.366500+00:00"
+  },
+  {
+    "asset_id": "bitcoin",
+    "symbol": "BTC-USDT",
+    "path": "data/raw/kucoin/2026-11-08/btc_2024_2025.json",
+    "startAt": 1719273600,
+    "endAt": 1741219199,
+    "url": "https://api.kucoin.com/api/v1/market/candles?symbol=BTC-USDT&type=1day&startAt=1719273600&endAt=1741219199",
+    "sha256": "79a51d98c17be935b821bc013b408b3de172690c884060faf61ffa778a38a166",
+    "rows": 254,
+    "captured_at_utc_from_file_mtime": "2026-11-08T12:57:01.763846+00:00"
+  }
+]

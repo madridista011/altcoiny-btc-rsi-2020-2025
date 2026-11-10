@@ -1,0 +1,21 @@
+﻿event_id,signal_date_utc,rsi_14,ranking_snapshot_date,ranking_age_days,basket,potential_overlap_group_90d,ranking_timing
+BTC_RSI14_20200312,2020-03-12,15.044424249623725,2020-03-08,4,ETH / XRP / BCH / BSV / LTC,G01,date_precedes_signal; publication_time_unverified
+BTC_RSI14_20210517,2021-05-17,29.617178279251892,2021-05-16,1,ETH / BNB / ADA / DOGE / XRP,G02,date_precedes_signal; publication_time_unverified
+BTC_RSI14_20210521,2021-05-21,28.987245618270816,2021-05-16,5,ETH / BNB / ADA / DOGE / XRP,G02,date_precedes_signal; publication_time_unverified
+BTC_RSI14_20220107,2022-01-07,29.001181897740537,2022-01-06,1,ETH / BNB / SOL / ADA / XRP,G03,date_precedes_signal; publication_time_unverified
+BTC_RSI14_20220121,2022-01-21,22.35868541411101,2022-01-20,1,ETH / BNB / ADA / SOL / XRP,G03,date_precedes_signal; publication_time_unverified
+BTC_RSI14_20220126,2022-01-26,29.97942495837947,2022-01-25,1,ETH / BNB / ADA / SOL / XRP,G03,date_precedes_signal; publication_time_unverified
+BTC_RSI14_20220509,2022-05-09,24.535231201947276,2022-05-08,1,ETH / BNB / XRP / SOL / ADA,G03,date_precedes_signal; publication_time_unverified
+BTC_RSI14_20220613,2022-06-13,24.151424630014116,2022-06-12,1,ETH / BNB / ADA / XRP / SOL,G03,date_precedes_signal; publication_time_unverified
+BTC_RSI14_20220701,2022-07-01,28.9310372121581,2022-06-30,1,ETH / BNB / XRP / ADA / SOL,G03,date_precedes_signal; publication_time_unverified
+BTC_RSI14_20220828,2022-08-28,29.247083244189373,2022-08-27,1,ETH / BNB / XRP / ADA / SOL,G03,date_precedes_signal; publication_time_unverified
+BTC_RSI14_20220906,2022-09-06,29.89284449373898,2022-09-05,1,ETH / BNB / ADA / XRP / SOL,G03,date_precedes_signal; publication_time_unverified
+BTC_RSI14_20221109,2022-11-09,24.491718910565933,2022-11-08,1,ETH / BNB / XRP / ADA / DOGE,G03,date_precedes_signal; publication_time_unverified
+BTC_RSI14_20230309,2023-03-09,29.304564320512828,2023-03-08,1,ETH / BNB / XRP / ADA / DOGE,G03,date_precedes_signal; publication_time_unverified
+BTC_RSI14_20230817,2023-08-17,21.026679451486682,2023-08-16,1,ETH / BNB / XRP / ADA / DOGE,G04,date_precedes_signal; publication_time_unverified
+BTC_RSI14_20240624,2024-06-24,25.603378762099027,2024-06-23,1,ETH / BNB / SOL / XRP / TON,G05,date_precedes_signal; publication_time_unverified
+BTC_RSI14_20240704,2024-07-04,28.855870303791654,2024-07-03,1,ETH / BNB / SOL / XRP / TON,G05,date_precedes_signal; publication_time_unverified
+BTC_RSI14_20240805,2024-08-05,26.658443519416455,2024-08-04,1,ETH / BNB / SOL / XRP / TON,G05,date_precedes_signal; publication_time_unverified
+BTC_RSI14_20250225,2025-02-25,29.62984834945182,2025-02-24,1,ETH / XRP / BNB / SOL / DOGE,G06,date_precedes_signal; publication_time_unverified
+BTC_RSI14_20251117,2025-11-17,28.830302603405983,2025-11-16,1,ETH / XRP / BNB / SOL / TRX,G07,date_precedes_signal; publication_time_unverified
+BTC_RSI14_20251119,2025-11-19,29.154344991931435,2025-11-18,1,ETH / XRP / BNB / SOL / TRX,G07,date_precedes_signal; publication_time_unverified

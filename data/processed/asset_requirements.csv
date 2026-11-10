@@ -1,0 +1,12 @@
+﻿asset_id,symbol,selected_events,required_start,required_end,preferred_price_venue,quote_currency
+bitcoin_cash,BCH,1,2020-03-13,2020-10-09,binance,USDT
+bitcoin_sv,BSV,1,2020-03-13,2020-10-09,kucoin,USDT
+bnb,BNB,19,2021-05-18,2026-06-18,binance,USDT
+cardano,ADA,13,2021-05-18,2024-03-15,binance,USDT
+dogecoin,DOGE,6,2021-05-18,2025-09-24,binance,USDT
+ethereum,ETH,20,2020-03-13,2026-06-18,binance,USDT
+litecoin,LTC,1,2020-03-13,2020-10-09,binance,USDT
+solana,SOL,14,2022-01-08,2026-06-18,binance,USDT
+toncoin,TON,3,2024-06-25,2025-03-04,kucoin,USDT
+tron,TRX,2,2025-11-18,2026-06-18,binance,USDT
+xrp,XRP,20,2020-03-13,2026-06-18,binance,USDT

@@ -1,0 +1,464 @@
+[
+  {
+    "source_id": "binance_spot_api",
+    "request": {
+      "symbol": "BTCUSDT",
+      "interval": "1d",
+      "limit": 1000,
+      "startTime": 1546300800000,
+      "endTime": 1785542399999,
+      "timeZone": "0"
+    },
+    "retrieved_at_utc": "2026-11-08 11:50:00 UTC",
+    "path": "data/raw/binance/2026-11-08/BTCUSDT_page001.json",
+    "rows": 1000
+  },
+  {
+    "source_id": "binance_spot_api",
+    "request": {
+      "symbol": "BTCUSDT",
+      "interval": "1d",
+      "limit": 1000,
+      "startTime": 1632700800000,
+      "endTime": 1785542399999,
+      "timeZone": "0"
+    },
+    "retrieved_at_utc": "2026-11-08 11:50:04 UTC",
+    "path": "data/raw/binance/2026-11-08/BTCUSDT_page002.json",
+    "rows": 1000
+  },
+  {
+    "source_id": "binance_spot_api",
+    "request": {
+      "symbol": "BTCUSDT",
+      "interval": "1d",
+      "limit": 1000,
+      "startTime": 1719100800000,
+      "endTime": 1785542399999,
+      "timeZone": "0"
+    },
+    "retrieved_at_utc": "2026-11-08 11:50:07 UTC",
+    "path": "data/raw/binance/2026-11-08/BTCUSDT_page003.json",
+    "rows": 769
+  },
+  {
+    "source_id": "binance_spot_api",
+    "request": {
+      "symbol": "ETHUSDT",
+      "interval": "1d",
+      "limit": 1000,
+      "startTime": 1577836800000,
+      "endTime": 1785542399999,
+      "timeZone": "0"
+    },
+    "retrieved_at_utc": "2026-11-08 11:50:01 UTC",
+    "path": "data/raw/binance/2026-11-08/ETHUSDT_page001.json",
+    "rows": 1000
+  },
+  {
+    "source_id": "binance_spot_api",
+    "request": {
+      "symbol": "ETHUSDT",
+      "interval": "1d",
+      "limit": 1000,
+      "startTime": 1664236800000,
+      "endTime": 1785542399999,
+      "timeZone": "0"
+    },
+    "retrieved_at_utc": "2026-11-08 11:50:05 UTC",
+    "path": "data/raw/binance/2026-11-08/ETHUSDT_page002.json",
+    "rows": 1000
+  },
+  {
+    "source_id": "binance_spot_api",
+    "request": {
+      "symbol": "ETHUSDT",
+      "interval": "1d",
+      "limit": 1000,
+      "startTime": 1750636800000,
+      "endTime": 1785542399999,
+      "timeZone": "0"
+    },
+    "retrieved_at_utc": "2026-11-08 11:50:07 UTC",
+    "path": "data/raw/binance/2026-11-08/ETHUSDT_page003.json",
+    "rows": 404
+  },
+  {
+    "source_id": "binance_spot_api",
+    "request": {
+      "symbol": "XRPUSDT",
+      "interval": "1d",
+      "limit": 1000,
+      "startTime": 1577836800000,
+      "endTime": 1785542399999,
+      "timeZone": "0"
+    },
+    "retrieved_at_utc": "2026-11-08 11:50:01 UTC",
+    "path": "data/raw/binance/2026-11-08/XRPUSDT_page001.json",
+    "rows": 1000
+  },
+  {
+    "source_id": "binance_spot_api",
+    "request": {
+      "symbol": "XRPUSDT",
+      "interval": "1d",
+      "limit": 1000,
+      "startTime": 1664236800000,
+      "endTime": 1785542399999,
+      "timeZone": "0"
+    },
+    "retrieved_at_utc": "2026-11-08 11:50:04 UTC",
+    "path": "data/raw/binance/2026-11-08/XRPUSDT_page002.json",
+    "rows": 1000
+  },
+  {
+    "source_id": "binance_spot_api",
+    "request": {
+      "symbol": "XRPUSDT",
+      "interval": "1d",
+      "limit": 1000,
+      "startTime": 1750636800000,
+      "endTime": 1785542399999,
+      "timeZone": "0"
+    },
+    "retrieved_at_utc": "2026-11-08 11:50:07 UTC",
+    "path": "data/raw/binance/2026-11-08/XRPUSDT_page003.json",
+    "rows": 404
+  },
+  {
+    "source_id": "binance_spot_api",
+    "request": {
+      "symbol": "BCHUSDT",
+      "interval": "1d",
+      "limit": 1000,
+      "startTime": 1577836800000,
+      "endTime": 1785542399999,
+      "timeZone": "0"
+    },
+    "retrieved_at_utc": "2026-11-08 11:50:01 UTC",
+    "path": "data/raw/binance/2026-11-08/BCHUSDT_page001.json",
+    "rows": 1000
+  },
+  {
+    "source_id": "binance_spot_api",
+    "request": {
+      "symbol": "BCHUSDT",
+      "interval": "1d",
+      "limit": 1000,
+      "startTime": 1664236800000,
+      "endTime": 1785542399999,
+      "timeZone": "0"
+    },
+    "retrieved_at_utc": "2026-11-08 11:50:04 UTC",
+    "path": "data/raw/binance/2026-11-08/BCHUSDT_page002.json",
+    "rows": 1000
+  },
+  {
+    "source_id": "binance_spot_api",
+    "request": {
+      "symbol": "BCHUSDT",
+      "interval": "1d",
+      "limit": 1000,
+      "startTime": 1750636800000,
+      "endTime": 1785542399999,
+      "timeZone": "0"
+    },
+    "retrieved_at_utc": "2026-11-08 11:50:07 UTC",
+    "path": "data/raw/binance/2026-11-08/BCHUSDT_page003.json",
+    "rows": 404
+  },
+  {
+    "source_id": "binance_spot_api",
+    "request": {
+      "symbol": "LTCUSDT",
+      "interval": "1d",
+      "limit": 1000,
+      "startTime": 1577836800000,
+      "endTime": 1785542399999,
+      "timeZone": "0"
+    },
+    "retrieved_at_utc": "2026-11-08 11:50:01 UTC",
+    "path": "data/raw/binance/2026-11-08/LTCUSDT_page001.json",
+    "rows": 1000
+  },
+  {
+    "source_id": "binance_spot_api",
+    "request": {
+      "symbol": "LTCUSDT",
+      "interval": "1d",
+      "limit": 1000,
+      "startTime": 1664236800000,
+      "endTime": 1785542399999,
+      "timeZone": "0"
+    },
+    "retrieved_at_utc": "2026-11-08 11:50:05 UTC",
+    "path": "data/raw/binance/2026-11-08/LTCUSDT_page002.json",
+    "rows": 1000
+  },
+  {
+    "source_id": "binance_spot_api",
+    "request": {
+      "symbol": "LTCUSDT",
+      "interval": "1d",
+      "limit": 1000,
+      "startTime": 1750636800000,
+      "endTime": 1785542399999,
+      "timeZone": "0"
+    },
+    "retrieved_at_utc": "2026-11-08 11:50:07 UTC",
+    "path": "data/raw/binance/2026-11-08/LTCUSDT_page003.json",
+    "rows": 404
+  },
+  {
+    "source_id": "binance_spot_api",
+    "request": {
+      "symbol": "EOSUSDT",
+      "interval": "1d",
+      "limit": 1000,
+      "startTime": 1577836800000,
+      "endTime": 1748303999999,
+      "timeZone": "0"
+    },
+    "retrieved_at_utc": "2026-11-08 11:50:05 UTC",
+    "path": "data/raw/binance/2026-11-08/EOSUSDT_page001.json",
+    "rows": 1000
+  },
+  {
+    "source_id": "binance_spot_api",
+    "request": {
+      "symbol": "EOSUSDT",
+      "interval": "1d",
+      "limit": 1000,
+      "startTime": 1664236800000,
+      "endTime": 1748303999999,
+      "timeZone": "0"
+    },
+    "retrieved_at_utc": "2026-11-08 11:50:08 UTC",
+    "path": "data/raw/binance/2026-11-08/EOSUSDT_page002.json",
+    "rows": 973
+  },
+  {
+    "source_id": "binance_spot_api",
+    "request": {
+      "symbol": "AUSDT",
+      "interval": "1d",
+      "limit": 1000,
+      "startTime": 1748390400000,
+      "endTime": 1785542399999,
+      "timeZone": "0"
+    },
+    "retrieved_at_utc": "2026-11-08 11:50:00 UTC",
+    "path": "data/raw/binance/2026-11-08/AUSDT_page001.json",
+    "rows": 430
+  },
+  {
+    "source_id": "binance_spot_api",
+    "request": {
+      "symbol": "SOLUSDT",
+      "interval": "1d",
+      "limit": 1000,
+      "startTime": 1597104000000,
+      "endTime": 1785542399999,
+      "timeZone": "0"
+    },
+    "retrieved_at_utc": "2026-11-08 12:04:22 UTC",
+    "path": "data/raw/binance/2026-11-08_sol/SOLUSDT_page001.json",
+    "rows": 1000
+  },
+  {
+    "source_id": "binance_spot_api",
+    "request": {
+      "symbol": "SOLUSDT",
+      "interval": "1d",
+      "limit": 1000,
+      "startTime": 1683504000000,
+      "endTime": 1785542399999,
+      "timeZone": "0"
+    },
+    "retrieved_at_utc": "2026-11-08 12:04:25 UTC",
+    "path": "data/raw/binance/2026-11-08_sol/SOLUSDT_page002.json",
+    "rows": 1000
+  },
+  {
+    "source_id": "binance_spot_api",
+    "request": {
+      "symbol": "SOLUSDT",
+      "interval": "1d",
+      "limit": 1000,
+      "startTime": 1769904000000,
+      "endTime": 1785542399999,
+      "timeZone": "0"
+    },
+    "retrieved_at_utc": "2026-11-08 12:04:28 UTC",
+    "path": "data/raw/binance/2026-11-08_sol/SOLUSDT_page003.json",
+    "rows": 181
+  },
+  {
+    "source_id": "binance_spot_api",
+    "request": {
+      "symbol": "BNBUSDT",
+      "interval": "1d",
+      "limit": 1000,
+      "startTime": 1577836800000,
+      "endTime": 1785542399999,
+      "timeZone": "0"
+    },
+    "retrieved_at_utc": "2026-11-08 12:53:15 UTC",
+    "path": "data/raw/binance/2026-11-08_ranked_assets/BNBUSDT_page001.json",
+    "rows": 1000
+  },
+  {
+    "source_id": "binance_spot_api",
+    "request": {
+      "symbol": "BNBUSDT",
+      "interval": "1d",
+      "limit": 1000,
+      "startTime": 1664236800000,
+      "endTime": 1785542399999,
+      "timeZone": "0"
+    },
+    "retrieved_at_utc": "2026-11-08 12:53:18 UTC",
+    "path": "data/raw/binance/2026-11-08_ranked_assets/BNBUSDT_page002.json",
+    "rows": 1000
+  },
+  {
+    "source_id": "binance_spot_api",
+    "request": {
+      "symbol": "BNBUSDT",
+      "interval": "1d",
+      "limit": 1000,
+      "startTime": 1750636800000,
+      "endTime": 1785542399999,
+      "timeZone": "0"
+    },
+    "retrieved_at_utc": "2026-11-08 12:53:21 UTC",
+    "path": "data/raw/binance/2026-11-08_ranked_assets/BNBUSDT_page003.json",
+    "rows": 404
+  },
+  {
+    "source_id": "binance_spot_api",
+    "request": {
+      "symbol": "ADAUSDT",
+      "interval": "1d",
+      "limit": 1000,
+      "startTime": 1577836800000,
+      "endTime": 1785542399999,
+      "timeZone": "0"
+    },
+    "retrieved_at_utc": "2026-11-08 12:53:14 UTC",
+    "path": "data/raw/binance/2026-11-08_ranked_assets/ADAUSDT_page001.json",
+    "rows": 1000
+  },
+  {
+    "source_id": "binance_spot_api",
+    "request": {
+      "symbol": "ADAUSDT",
+      "interval": "1d",
+      "limit": 1000,
+      "startTime": 1664236800000,
+      "endTime": 1785542399999,
+      "timeZone": "0"
+    },
+    "retrieved_at_utc": "2026-11-08 12:53:17 UTC",
+    "path": "data/raw/binance/2026-11-08_ranked_assets/ADAUSDT_page002.json",
+    "rows": 1000
+  },
+  {
+    "source_id": "binance_spot_api",
+    "request": {
+      "symbol": "ADAUSDT",
+      "interval": "1d",
+      "limit": 1000,
+      "startTime": 1750636800000,
+      "endTime": 1785542399999,
+      "timeZone": "0"
+    },
+    "retrieved_at_utc": "2026-11-08 12:53:20 UTC",
+    "path": "data/raw/binance/2026-11-08_ranked_assets/ADAUSDT_page003.json",
+    "rows": 404
+  },
+  {
+    "source_id": "binance_spot_api",
+    "request": {
+      "symbol": "DOGEUSDT",
+      "interval": "1d",
+      "limit": 1000,
+      "startTime": 1577836800000,
+      "endTime": 1785542399999,
+      "timeZone": "0"
+    },
+    "retrieved_at_utc": "2026-11-08 12:53:15 UTC",
+    "path": "data/raw/binance/2026-11-08_ranked_assets/DOGEUSDT_page001.json",
+    "rows": 1000
+  },
+  {
+    "source_id": "binance_spot_api",
+    "request": {
+      "symbol": "DOGEUSDT",
+      "interval": "1d",
+      "limit": 1000,
+      "startTime": 1664236800000,
+      "endTime": 1785542399999,
+      "timeZone": "0"
+    },
+    "retrieved_at_utc": "2026-11-08 12:53:18 UTC",
+    "path": "data/raw/binance/2026-11-08_ranked_assets/DOGEUSDT_page002.json",
+    "rows": 1000
+  },
+  {
+    "source_id": "binance_spot_api",
+    "request": {
+      "symbol": "DOGEUSDT",
+      "interval": "1d",
+      "limit": 1000,
+      "startTime": 1750636800000,
+      "endTime": 1785542399999,
+      "timeZone": "0"
+    },
+    "retrieved_at_utc": "2026-11-08 12:53:21 UTC",
+    "path": "data/raw/binance/2026-11-08_ranked_assets/DOGEUSDT_page003.json",
+    "rows": 404
+  },
+  {
+    "source_id": "binance_spot_api",
+    "request": {
+      "symbol": "TRXUSDT",
+      "interval": "1d",
+      "limit": 1000,
+      "startTime": 1577836800000,
+      "endTime": 1785542399999,
+      "timeZone": "0"
+    },
+    "retrieved_at_utc": "2026-11-08 12:53:15 UTC",
+    "path": "data/raw/binance/2026-11-08_ranked_assets/TRXUSDT_page001.json",
+    "rows": 1000
+  },
+  {
+    "source_id": "binance_spot_api",
+    "request": {
+      "symbol": "TRXUSDT",
+      "interval": "1d",
+      "limit": 1000,
+      "startTime": 1664236800000,
+      "endTime": 1785542399999,
+      "timeZone": "0"
+    },
+    "retrieved_at_utc": "2026-11-08 12:53:18 UTC",
+    "path": "data/raw/binance/2026-11-08_ranked_assets/TRXUSDT_page002.json",
+    "rows": 1000
+  },
+  {
+    "source_id": "binance_spot_api",
+    "request": {
+      "symbol": "TRXUSDT",
+      "interval": "1d",
+      "limit": 1000,
+      "startTime": 1750636800000,
+      "endTime": 1785542399999,
+      "timeZone": "0"
+    },
+    "retrieved_at_utc": "2026-11-08 12:53:21 UTC",
+    "path": "data/raw/binance/2026-11-08_ranked_assets/TRXUSDT_page003.json",
+    "rows": 404
+  }
+]

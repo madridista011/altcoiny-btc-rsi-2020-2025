@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="460.8pt" viewBox="0 0 864 460.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <title>Koszyk pokonał BTC w 4–5 z 20 zdarzeń</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Koszyk pokonał BTC w 4–5 z 20 zdarzeń</dc:title>
+    <dc:description>Event-level success frequencies out of 20. Equal 20% initial weights; benchmark is the mean of five venue-matched BTC returns. Supplemental descriptive aggregation.</dc:description>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 460.8 
+L 864 460.8 
+L 864 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 164.16 350.208 
+L 812.16 350.208 
+L 812.16 129.024 
+L 164.16 129.024 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 164.16 350.208 
+L 164.16 129.024 
+" clip-path="url(#p1d9c841bb0)" style="fill: none; stroke: #dce3e8; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2"/>
+     <g id="text_1">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #172d3d" x="164.16" y="368.566281" transform="rotate(-0 164.16 368.566281)">0%</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 293.76 350.208 
+L 293.76 129.024 
+" clip-path="url(#p1d9c841bb0)" style="fill: none; stroke: #dce3e8; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4"/>
+     <g id="text_2">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #172d3d" x="293.76" y="368.566281" transform="rotate(-0 293.76 368.566281)">20%</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 423.36 350.208 
+L 423.36 129.024 
+" clip-path="url(#p1d9c841bb0)" style="fill: none; stroke: #dce3e8; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6"/>
+     <g id="text_3">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #172d3d" x="423.36" y="368.566281" transform="rotate(-0 423.36 368.566281)">40%</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 552.96 350.208 
+L 552.96 129.024 
+" clip-path="url(#p1d9c841bb0)" style="fill: none; stroke: #dce3e8; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8"/>
+     <g id="text_4">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #172d3d" x="552.96" y="368.566281" transform="rotate(-0 552.96 368.566281)">60%</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 682.56 350.208 
+L 682.56 129.024 
+" clip-path="url(#p1d9c841bb0)" style="fill: none; stroke: #dce3e8; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10"/>
+     <g id="text_5">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #172d3d" x="682.56" y="368.566281" transform="rotate(-0 682.56 368.566281)">80%</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_11">
+      <path d="M 812.16 350.208 
+L 812.16 129.024 
+" clip-path="url(#p1d9c841bb0)" style="fill: none; stroke: #dce3e8; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_12"/>
+     <g id="text_6">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #172d3d" x="812.16" y="368.566281" transform="rotate(-0 812.16 368.566281)">100%</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_13"/>
+     <g id="text_7">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #172d3d" x="154.16" y="167.917268" transform="rotate(-0 154.16 167.917268)">A · D+1</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_14"/>
+     <g id="text_8">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #172d3d" x="154.16" y="243.795141" transform="rotate(-0 154.16 243.795141)">B · D+7</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_15"/>
+     <g id="text_9">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #172d3d" x="154.16" y="319.893014" transform="rotate(-0 154.16 319.893014)">C · powrót RSI</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 164.16 139.077818 
+L 488.16 139.077818 
+L 488.16 153.494614 
+L 164.16 153.494614 
+z
+" clip-path="url(#p1d9c841bb0)" style="fill: #166c88"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 164.16 214.955691 
+L 520.56 214.955691 
+L 520.56 229.372487 
+L 164.16 229.372487 
+z
+" clip-path="url(#p1d9c841bb0)" style="fill: #166c88"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 164.16 290.833564 
+L 520.56 290.833564 
+L 520.56 305.25036 
+L 164.16 305.25036 
+z
+" clip-path="url(#p1d9c841bb0)" style="fill: #166c88"/>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #172d3d" x="495.16" y="149.045591" transform="rotate(-0 495.16 149.045591)">10/20 (50%)</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #172d3d" x="527.56" y="224.923464" transform="rotate(-0 527.56 224.923464)">11/20 (55%)</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #172d3d" x="527.56" y="300.801337" transform="rotate(-0 527.56 300.801337)">11/20 (55%)</text>
+   </g>
+   <g id="patch_6">
+    <path d="M 164.16 156.529729 
+L 326.16 156.529729 
+L 326.16 170.946525 
+L 164.16 170.946525 
+z
+" clip-path="url(#p1d9c841bb0)" style="fill: #c57126"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 164.16 232.407602 
+L 293.76 232.407602 
+L 293.76 246.824398 
+L 164.16 246.824398 
+z
+" clip-path="url(#p1d9c841bb0)" style="fill: #c57126"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 164.16 308.285475 
+L 326.16 308.285475 
+L 326.16 322.702271 
+L 164.16 322.702271 
+z
+" clip-path="url(#p1d9c841bb0)" style="fill: #c57126"/>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #172d3d" x="333.16" y="166.497502" transform="rotate(-0 333.16 166.497502)">5/20 (25%)</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #172d3d" x="300.76" y="242.375375" transform="rotate(-0 300.76 242.375375)">4/20 (20%)</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #172d3d" x="333.16" y="318.253248" transform="rotate(-0 333.16 318.253248)">5/20 (25%)</text>
+   </g>
+   <g id="patch_9">
+    <path d="M 164.16 173.98164 
+L 261.36 173.98164 
+L 261.36 188.398436 
+L 164.16 188.398436 
+z
+" clip-path="url(#p1d9c841bb0)" style="fill: #66758a"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 164.16 249.859513 
+L 261.36 249.859513 
+L 261.36 264.276309 
+L 164.16 264.276309 
+z
+" clip-path="url(#p1d9c841bb0)" style="fill: #66758a"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 164.16 325.737386 
+L 261.36 325.737386 
+L 261.36 340.154182 
+L 164.16 340.154182 
+z
+" clip-path="url(#p1d9c841bb0)" style="fill: #66758a"/>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #172d3d" x="268.36" y="183.949413" transform="rotate(-0 268.36 183.949413)">3/20 (15%)</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #172d3d" x="268.36" y="259.827286" transform="rotate(-0 268.36 259.827286)">3/20 (15%)</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #172d3d" x="268.36" y="335.705159" transform="rotate(-0 268.36 335.705159)">3/20 (15%)</text>
+   </g>
+   <g id="legend_1">
+    <g id="patch_12">
+     <path d="M 173.16 90.326438 
+L 193.16 90.326438 
+L 193.16 83.326438 
+L 173.16 83.326438 
+z
+" style="fill: #166c88"/>
+    </g>
+    <g id="text_19">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #172d3d" x="201.16" y="90.326438" transform="rotate(-0 201.16 90.326438)">Zysk po kosztach</text>
+    </g>
+    <g id="patch_13">
+     <path d="M 307.64125 90.326438 
+L 327.64125 90.326438 
+L 327.64125 83.326438 
+L 307.64125 83.326438 
+z
+" style="fill: #c57126"/>
+    </g>
+    <g id="text_20">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #172d3d" x="335.64125" y="90.326438" transform="rotate(-0 335.64125 90.326438)">Przewaga nad BTC</text>
+    </g>
+    <g id="patch_14">
+     <path d="M 448.325625 90.326438 
+L 468.325625 90.326438 
+L 468.325625 83.326438 
+L 448.325625 83.326438 
+z
+" style="fill: #66758a"/>
+    </g>
+    <g id="text_21">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #172d3d" x="476.325625" y="90.326438" transform="rotate(-0 476.325625 90.326438)">Zysk i przewaga</text>
+    </g>
+   </g>
+  </g>
+  <g id="text_22">
+   <text style="font-weight: 700; font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #172d3d" x="60.48" y="33.750788" transform="rotate(-0 60.48 33.750788)">Koszyk pokonał BTC w 4–5 z 20 zdarzeń</text>
+  </g>
+  <g id="text_23">
+   <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #66758a" x="60.48" y="51.252759" transform="rotate(-0 60.48 51.252759)">Pięć monet · równe początkowe udziały po 20% · osobny hipotetyczny budżet dla każdego sygnału</text>
+  </g>
+  <g id="text_24">
+   <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #66758a" transform="translate(60.48 424.222594)">90 dni · USDT · prowizja 0,10% i poślizg 0,05% przy zakupie oraz sprzedaży</text>
+   <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #66758a" transform="translate(60.48 436.352203)">Zestawienie opisowe dodane po wynikach indywidualnych. Bez łączenia kapitału między sygnałami.</text>
+  </g>
+  <g id="text_25">
+   <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #66758a" x="60.48" y="448.53785" transform="rotate(-0 60.48 448.53785)">Opracowanie własne · ceny: Binance / KuCoin · rankingi: Data: CryptWatch, based on CoinMarketCap</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p1d9c841bb0">
+   <rect x="164.16" y="129.024" width="648" height="221.184"/>
+  </clipPath>
+ </defs>
+</svg>

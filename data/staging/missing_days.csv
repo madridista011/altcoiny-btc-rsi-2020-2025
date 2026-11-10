@@ -1,0 +1,2 @@
+﻿asset_id,date_utc,documented,reason
+eos_vaulta,2025-05-27,True,Trading suspension during EOS to Vaulta migration; no synthetic candle is permitted.

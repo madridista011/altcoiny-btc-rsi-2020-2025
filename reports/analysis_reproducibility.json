@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "identical_analysis_csv_files": 14,
+  "protocol_unchanged_since_control": true,
+  "source_files_and_control_checked_by": "scripts/analyze_trades.py"
+}

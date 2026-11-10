@@ -1,0 +1,61 @@
+{
+  "calculated_at_utc": "2026-11-08T15:05:06.235280+00:00",
+  "selection_rule": "First chronological event, first eligible position",
+  "protocol_sha256": "d85943c7a5bb6740b45773d99f3eec09382adbc0ab215db4717f041272552edb",
+  "protocol_file": "config/trade_protocol_v1.json",
+  "gross_advantage_pp": "24.18744388211505086283074825495602668810",
+  "net_advantage_pp": "24.11499026711800877189969805102216137300",
+  "checks": [
+    "Same venue and dates",
+    "90 calendar days",
+    "Price cells match immutable source JSON",
+    "Net cash-flow matches return formula"
+  ],
+  "results": [
+    {
+      "event_id": "BTC_RSI14_20200312",
+      "symbol": "ETH",
+      "asset_id": "ethereum",
+      "venue": "binance",
+      "signal_date": "2020-03-12",
+      "ranking_date": "2020-03-08",
+      "entry_rule": "A",
+      "entry_date": "2020-03-13",
+      "exit_date": "2020-06-11",
+      "holding_days": 90,
+      "entry_reference_open_usdt": "107.67000000",
+      "exit_reference_open_usdt": "247.78000000",
+      "gross_return": "1.301290981703352837373455930156961084796",
+      "net_return": "1.294397452498814189103065283531751328781",
+      "hypothetical_initial_usdt": "1000",
+      "hypothetical_final_usdt": "2294.397452498814189103065283531751328781",
+      "entry_source_file": "data/raw/binance/2026-11-08/ETHUSDT_page001.json",
+      "entry_source_row": "73",
+      "exit_source_file": "data/raw/binance/2026-11-08/ETHUSDT_page001.json",
+      "exit_source_row": "163"
+    },
+    {
+      "event_id": "BTC_RSI14_20200312",
+      "symbol": "BTC",
+      "asset_id": "bitcoin",
+      "venue": "binance",
+      "signal_date": "2020-03-12",
+      "ranking_date": "2020-03-08",
+      "entry_rule": "A",
+      "entry_date": "2020-03-13",
+      "exit_date": "2020-06-11",
+      "holding_days": 90,
+      "entry_reference_open_usdt": "4800.01000000",
+      "exit_reference_open_usdt": "9885.22000000",
+      "gross_return": "1.059416542882202328745148447607400817915",
+      "net_return": "1.053247549827634101384068303021529715051",
+      "hypothetical_initial_usdt": "1000",
+      "hypothetical_final_usdt": "2053.247549827634101384068303021529715051",
+      "entry_source_file": "data/raw/binance/2026-11-08/BTCUSDT_page001.json",
+      "entry_source_row": "438",
+      "exit_source_file": "data/raw/binance/2026-11-08/BTCUSDT_page001.json",
+      "exit_source_row": "528"
+    }
+  ],
+  "scope": "One control example, not a completed strategy evaluation"
+}

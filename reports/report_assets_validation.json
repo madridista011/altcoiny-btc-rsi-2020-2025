@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "analysis_csv_hashes_unchanged": 17,
+  "chart_values_checked": 93,
+  "max_plot_value_error": "2.10674387142E-15",
+  "verified_exports": 8,
+  "png_dimensions": {
+    "raport/wykresy/01_stopy_zwrotu.png": [
+      2400,
+      1280
+    ],
+    "raport/wykresy/02_zysk_i_przewaga_koszykow.png": [
+      2400,
+      1280
+    ],
+    "raport/wykresy/03_przewaga_w_kazdym_zdarzeniu.png": [
+      2100,
+      2039
+    ],
+    "raport/wykresy/04_ryzyko_pozycji.png": [
+      2400,
+      1280
+    ]
+  },
+  "svg_xml_valid": true,
+  "report_image_links_checked": 5,
+  "report_chapters": 6,
+  "abstract_before_chapters": true,
+  "abstract_medians_match_data": true,
+  "manual_visual_review": "Recorded separately in the project diary; this script checks numbers, file integrity and document references.",
+  "report_sha256": "85be3256dc794465d390c5e390f563f042d4d0ed08c09e331635eb25b9d0aa5f"
+}

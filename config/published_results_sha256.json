@@ -1,0 +1,19 @@
+{
+  "data/analysis/basket_capital_path_90d.csv": "4db7a9bcc7e6548ac837d24a7f119ecea1453bae99c0f51b39809fa196d45856",
+  "data/analysis/basket_capital_risk_90d.csv": "584d67ca2a44e0299243d369746d6571148e6d72705f9e3e5bed1a3685a9b250",
+  "data/analysis/cost_scenarios_90d.csv": "5800158a7461ddce8e121d950d4b70a9d4b97d82298ad97e1453d18fe214dcaf",
+  "data/analysis/cost_sensitivity_summary_90d.csv": "5bb8fe900b81500d301e4606711bb775d61778cdc28bf93af8eebf572b0cbca3",
+  "data/analysis/entry_plans.csv": "d36006b465ce29fe65a67a4a131302d5c35562961814688eb4e7487645cea18a",
+  "data/analysis/event_mean_returns_90d.csv": "c774550be01a98fa0a927b109a7278c672ce3d60fac9de99a9af6223e5c7fe10",
+  "data/analysis/paired_rule_comparisons_90d.csv": "da6c4e8dee3089e6ec3fd3153f1131778ce3f16b5fbd76dbdc7152b68b4e13ab",
+  "data/analysis/paired_rule_summary_90d.csv": "17d41cf1b014336256351557ca8aaabac3c923a073c57b0efe034e50ce88a21a",
+  "data/analysis/summary_basket_capital_risk_90d.csv": "5e607df026b88d09af4382661a441d7e08b948f47e2820e1689f3d5e45c9b250",
+  "data/analysis/summary_by_coin_rule_90d.csv": "8606685851fec4f9d8cdf040ed86fd5562435f18594f86aba1eee6166977524f",
+  "data/analysis/summary_by_event_rule_90d.csv": "34cbf1d6176ec2a763e253b184052f037c3cea49321f29c8d3a017fab719f094",
+  "data/analysis/summary_by_period_90d.csv": "fbb793298b973cf62e1a3653e77a654b91473b2a3f985231e0ebb75b9435d2f8",
+  "data/analysis/summary_by_rule_90d.csv": "59dacd2cb2073bf4ab82440bce4ba7b449da417ce6974da5093da15708d298d4",
+  "data/analysis/summary_common_sample_90d.csv": "59dacd2cb2073bf4ab82440bce4ba7b449da417ce6974da5093da15708d298d4",
+  "data/analysis/summary_event_means_90d.csv": "4030be8ce9b9ef1b02c8bbd2f1ee202d62d82bb705ece598095e93a9f487e51c",
+  "data/analysis/summary_event_means_by_period_90d.csv": "dbea02d2db6d5ea54d16dc0799aaeae7412a106168aec8339c027eb71861d797",
+  "data/analysis/trades_90d.csv": "8963d01a7e2dbca24ce9b2ee37de9f1fd79a80a47993bc07ed6cb6886c6b5871"
+}

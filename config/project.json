@@ -1,0 +1,42 @@
+{
+  "study_start": "2020-01-01",
+  "study_end": "2025-12-31",
+  "data_end": "2026-07-31",
+  "btc_warmup_start": "2019-01-01",
+  "interval": "1d",
+  "timezone": "UTC",
+  "quote_currency": "USDT",
+  "universe_mode": "point_in_time_top5",
+  "universe_size": 5,
+  "universe_status": "twenty_candidate_baskets_and_price_coverage_ready_publication_time_assumed",
+  "ranking_reference_date": null,
+  "ranking_source": "https://cryptwat.ch/api",
+  "ranking_source_status": "nineteen_required_snapshots_downloaded_and_validated",
+  "ranking_date_rule": "latest_snapshot_strictly_before_signal_date_pending_publication_time_validation",
+  "freeze_basket_across_entry_rules": true,
+  "excluded_asset_types": ["bitcoin", "stablecoin", "wrapped_asset"],
+  "asset_list_role": "downloaded_price_cache_only_not_the_research_universe",
+  "legacy_ranking_reference": "https://coinmarketcap.com/historical/20191229/",
+  "assets": [
+    {"asset_id": "bitcoin", "name": "Bitcoin", "benchmark": true, "segments": [{"symbol": "BTCUSDT", "start": "2019-01-01", "end": "2026-07-31"}]},
+    {"asset_id": "ethereum", "name": "Ethereum", "benchmark": false, "segments": [{"symbol": "ETHUSDT", "start": "2020-01-01", "end": "2026-07-31"}]},
+    {"asset_id": "xrp", "name": "XRP", "benchmark": false, "segments": [{"symbol": "XRPUSDT", "start": "2020-01-01", "end": "2026-07-31"}]},
+    {"asset_id": "bitcoin_cash", "name": "Bitcoin Cash", "benchmark": false, "segments": [{"symbol": "BCHUSDT", "start": "2020-01-01", "end": "2026-07-31"}]},
+    {"asset_id": "litecoin", "name": "Litecoin", "benchmark": false, "segments": [{"symbol": "LTCUSDT", "start": "2020-01-01", "end": "2026-07-31"}]},
+    {"asset_id": "eos_vaulta", "name": "EOS / Vaulta", "benchmark": false, "segments": [{"symbol": "EOSUSDT", "start": "2020-01-01", "end": "2025-05-26"}, {"symbol": "AUSDT", "start": "2025-05-28", "end": "2026-07-31"}]},
+    {"asset_id": "solana", "name": "Solana", "benchmark": false, "cache_group": "requested_download", "available_from": "2020-08-11", "availability_source": "https://www.binance.com/en/support/announcement/detail/cf77f566c9b64cc791fc152679175de8", "segments": [{"symbol": "SOLUSDT", "start": "2020-08-11", "end": "2026-07-31"}]},
+    {"asset_id": "bnb", "name": "BNB", "benchmark": false, "cache_group": "ranking_selected_download", "segments": [{"symbol": "BNBUSDT", "start": "2020-01-01", "end": "2026-07-31"}]},
+    {"asset_id": "cardano", "name": "Cardano", "benchmark": false, "cache_group": "ranking_selected_download", "segments": [{"symbol": "ADAUSDT", "start": "2020-01-01", "end": "2026-07-31"}]},
+    {"asset_id": "dogecoin", "name": "Dogecoin", "benchmark": false, "cache_group": "ranking_selected_download", "segments": [{"symbol": "DOGEUSDT", "start": "2020-01-01", "end": "2026-07-31"}]},
+    {"asset_id": "tron", "name": "TRON", "benchmark": false, "cache_group": "ranking_selected_download", "segments": [{"symbol": "TRXUSDT", "start": "2020-01-01", "end": "2026-07-31"}]}
+  ],
+  "known_partial_days": [
+    {"symbol": "EOSUSDT", "date": "2025-05-26", "known_non_midnight_open": false, "known_early_trading_stop": true, "expected_close_time_utc": "2025-05-26T02:59:59.999Z", "reason": "EOS spot trading stopped at 03:00 UTC before the 1:1 migration."},
+    {"symbol": "AUSDT", "date": "2025-05-28", "known_non_midnight_open": true, "known_early_trading_stop": false, "reason": "Vaulta spot trading opened at 08:00 UTC, although the daily candle timestamp is 00:00 UTC."},
+    {"symbol": "SOLUSDT", "date": "2020-08-11", "known_non_midnight_open": true, "known_early_trading_stop": false, "reason": "SOL/USDT spot trading opened at 06:00 UTC. The daily open is not an executable midnight entry."}
+  ],
+  "expected_missing_days": [
+    {"asset_id": "eos_vaulta", "date": "2025-05-27", "reason": "Trading suspension during EOS to Vaulta migration; no synthetic candle is permitted."}
+  ],
+  "migration_source": "https://www.binance.com/en/support/announcement/detail/1e89a9ca957c4b0ca7502e60b993e201"
+}

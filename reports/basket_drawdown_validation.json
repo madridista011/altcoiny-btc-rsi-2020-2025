@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "tests": "python -m unittest discover -s tests -p test_basket_drawdown.py -v",
+  "passed_tests": 4,
+  "independently_reconstructed_event_rule_paths": 60,
+  "observations_compared_per_series": 5580,
+  "capital_absolute_tolerance_usdt": 1e-8,
+  "drawdown_absolute_tolerance": 1e-12,
+  "final_equity_matches_prior_net_returns": true,
+  "original_analysis_csv_hashes_unchanged": 14,
+  "report_assets_validation": "passed",
+  "publication_validation": "passed",
+  "pdf_pages": 27,
+  "html_references": 72,
+  "visual_review": "PDF full contact sheets and corrected pages 20/24 inspected; new figure labels corrected. Desktop and mobile MDD section reviewed, disposition ship.",
+  "ui_checks": "First chronological event, worst A event, entry rules B and C, latest event, responsive SVG and no horizontal page overflow.",
+  "detector": "Degraded regex mode, no computed contrast check; incumbent Arial warning accepted. Not a clean detector claim.",
+  "scope": "Separate 90-day event investments, daily market marks and actual modeled entry/exit costs; no intraday or combined multi-year account drawdown."
+}

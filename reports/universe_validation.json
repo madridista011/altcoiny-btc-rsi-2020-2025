@@ -1,0 +1,34 @@
+{
+  "events": 20,
+  "historical_snapshots": 19,
+  "selected_asset_event_rows": 100,
+  "distinct_altcoins": 11,
+  "selected_events_by_coin": {
+    "ETH": 20,
+    "XRP": 20,
+    "BCH": 1,
+    "BSV": 1,
+    "LTC": 1,
+    "BNB": 19,
+    "ADA": 13,
+    "DOGE": 6,
+    "SOL": 14,
+    "TON": 3,
+    "TRX": 2
+  },
+  "distinct_ordered_baskets": 11,
+  "distinct_asset_sets": 6,
+  "all_baskets_have_five_distinct_eligible_assets": true,
+  "all_snapshots_precede_signal_day": true,
+  "prices_not_used_to_filter_selection": true,
+  "source_symbol_normalizations": [
+    {
+      "source_symbol": "GRAM",
+      "symbol_at_event": "TON",
+      "asset_id": "toncoin",
+      "basis": "CMC id 11419 and date-valid aliases in the saved detail response"
+    }
+  ],
+  "ranking_publication_time_verified": false,
+  "no_strategy_returns_computed": true
+}

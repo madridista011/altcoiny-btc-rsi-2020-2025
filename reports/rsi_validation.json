@@ -1,0 +1,30 @@
+{
+  "period": 14,
+  "seed": "Simple mean of first 14 price changes; first RSI needs 15 closes.",
+  "flat_prices_policy": "50 when both smoothed gain and loss are zero",
+  "independent_check": "pandas EWM, alpha=1/14, adjust=False, explicit 14-change seed",
+  "pandas_version": "3.0.1",
+  "max_difference_from_pandas": 4.973799150320701e-14,
+  "warmup_sensitivity": {
+    "primary_start": "2019-01-01",
+    "alternative_start": "2019-07-01",
+    "max_difference_in_study": 2.9746368198857454e-05,
+    "same_study_signal_dates": true
+  },
+  "synthetic_edge_cases": "Increasing, decreasing and constant fictional prices passed.",
+  "formula_source": "https://download.esignal.com/products/workstation/help/charts/studies/rsi.htm",
+  "study_signal_count": 20,
+  "signals_by_year": {
+    "2020": 1,
+    "2021": 2,
+    "2022": 9,
+    "2023": 2,
+    "2024": 3,
+    "2025": 3
+  },
+  "required_snapshots": 19,
+  "maximum_ranking_age_days": 5,
+  "potential_overlap_groups_90d": 7,
+  "grouping_caution": "Connected overlapping potential windows; groups are not proven independent observations.",
+  "no_strategy_returns_computed": true
+}

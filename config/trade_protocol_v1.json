@@ -1,0 +1,27 @@
+{
+  "status": "working_protocol_recorded_before_first_control_calculation",
+  "scope": "Historical event comparisons, not a capital-constrained portfolio. First calculation is the first chronological event and its first eligible asset, with BTC, under rule A only.",
+  "selection": "Five historical eligible altcoins per signal, frozen across all entry rules; no selection by subsequent return.",
+  "timezone": "UTC",
+  "primary_holding_days": 90,
+  "entry_rules": {
+    "A": "Open of signal day + 1 calendar day.",
+    "B": "Open of signal day + 7 calendar days, counted from the signal date rather than from entry A.",
+    "C": "First BTC close with RSI >= 30 on days signal+1 through signal+30; entry at next daily open. No qualifying close means no trade, retained in the event summary."
+  },
+  "exit_rule": "Open exactly 90 calendar days after the actual entry date of each rule.",
+  "price_venue": "BTC benchmark on the same venue as its paired altcoin; signal RSI always Binance BTC/USDT.",
+  "base_costs": {"buy_fee_rate": 0.001, "sell_fee_rate": 0.001, "adverse_buy_slippage": 0.0005, "adverse_sell_slippage": 0.0005},
+  "cost_sensitivity_before_results": [
+    {"name": "fees_without_slippage", "fee_each_side": 0.001, "slippage_each_side": 0.0},
+    {"name": "higher_slippage", "fee_each_side": 0.001, "slippage_each_side": 0.002}
+  ],
+  "cost_basis": "Scenario assumptions, not verified historical customer fee schedules or order-book estimates. No discount or rebate model.",
+  "cash_flow": "Fixed quantity held between entry and exit; buy fee added to cash outlay, sell fee deducted from proceeds. Fees in USDT. A hypothetical initial budget is fully allocated including entry costs.",
+  "missing_data": "No filling of non-traded prices and no replacement of historically selected coins. Missing entry/exit prices receive an explicit status, not a zero return.",
+  "reporting": "Per coin, entry rule and holding period, with event counts and paired BTC. No summing overlapping trade returns as portfolio profit.",
+  "risk_definition_to_apply_later": "Entry-relative adverse excursion from daily lows during entry day through day before exit; separately label any close-based peak-to-trough drawdown. Do not confuse the two.",
+  "time_stability_plan": "Report 2020-2022 and 2023-2025 separately. If selecting a rule on the earlier period, train only on trades whose outcomes are observed before 2023-01-01 and assess later signals without re-tuning. Report exclusions and dependence; do not infer independence from sample size.",
+  "ranking_limitation": "Earlier snapshot age is documented. Historical publication time remains an unverified availability assumption.",
+  "execution_limitation": "Daily-open simulation with model costs; no proof of real fill, order-size liquidity, tick or lot rounding."
+}

@@ -1,0 +1,176 @@
+{
+  "raw_manifest": "data/metadata/event_prices/manifest.json",
+  "raw_pages": 33,
+  "raw_rows": 26585,
+  "normalized_rows": 26585,
+  "checks": {
+    "schema_price_timestamp_errors": 0,
+    "duplicate_asset_dates": 0,
+    "unexpected_missing_days": 0,
+    "documented_missing_days": 1,
+    "known_partial_days": 3,
+    "large_close_move_flags": 0
+  },
+  "inventory": [
+    {
+      "asset_id": "bitcoin",
+      "cache_group": "benchmark",
+      "calendar_start": "2019-01-01",
+      "pre_listing_days": 0,
+      "rows": 2769,
+      "first_date": "2019-01-01",
+      "last_date": "2026-07-31",
+      "study_rows": 2192,
+      "missing_days": 0,
+      "known_partial_days": 0
+    },
+    {
+      "asset_id": "ethereum",
+      "cache_group": "initial_download",
+      "calendar_start": "2020-01-01",
+      "pre_listing_days": 0,
+      "rows": 2404,
+      "first_date": "2020-01-01",
+      "last_date": "2026-07-31",
+      "study_rows": 2192,
+      "missing_days": 0,
+      "known_partial_days": 0
+    },
+    {
+      "asset_id": "xrp",
+      "cache_group": "initial_download",
+      "calendar_start": "2020-01-01",
+      "pre_listing_days": 0,
+      "rows": 2404,
+      "first_date": "2020-01-01",
+      "last_date": "2026-07-31",
+      "study_rows": 2192,
+      "missing_days": 0,
+      "known_partial_days": 0
+    },
+    {
+      "asset_id": "bitcoin_cash",
+      "cache_group": "initial_download",
+      "calendar_start": "2020-01-01",
+      "pre_listing_days": 0,
+      "rows": 2404,
+      "first_date": "2020-01-01",
+      "last_date": "2026-07-31",
+      "study_rows": 2192,
+      "missing_days": 0,
+      "known_partial_days": 0
+    },
+    {
+      "asset_id": "litecoin",
+      "cache_group": "initial_download",
+      "calendar_start": "2020-01-01",
+      "pre_listing_days": 0,
+      "rows": 2404,
+      "first_date": "2020-01-01",
+      "last_date": "2026-07-31",
+      "study_rows": 2192,
+      "missing_days": 0,
+      "known_partial_days": 0
+    },
+    {
+      "asset_id": "eos_vaulta",
+      "cache_group": "initial_download",
+      "calendar_start": "2020-01-01",
+      "pre_listing_days": 0,
+      "rows": 2403,
+      "first_date": "2020-01-01",
+      "last_date": "2026-07-31",
+      "study_rows": 2191,
+      "missing_days": 1,
+      "known_partial_days": 2
+    },
+    {
+      "asset_id": "solana",
+      "cache_group": "requested_download",
+      "calendar_start": "2020-08-11",
+      "pre_listing_days": 223,
+      "rows": 2181,
+      "first_date": "2020-08-11",
+      "last_date": "2026-07-31",
+      "study_rows": 1969,
+      "missing_days": 0,
+      "known_partial_days": 1
+    },
+    {
+      "asset_id": "bnb",
+      "cache_group": "ranking_selected_download",
+      "calendar_start": "2020-01-01",
+      "pre_listing_days": 0,
+      "rows": 2404,
+      "first_date": "2020-01-01",
+      "last_date": "2026-07-31",
+      "study_rows": 2192,
+      "missing_days": 0,
+      "known_partial_days": 0
+    },
+    {
+      "asset_id": "cardano",
+      "cache_group": "ranking_selected_download",
+      "calendar_start": "2020-01-01",
+      "pre_listing_days": 0,
+      "rows": 2404,
+      "first_date": "2020-01-01",
+      "last_date": "2026-07-31",
+      "study_rows": 2192,
+      "missing_days": 0,
+      "known_partial_days": 0
+    },
+    {
+      "asset_id": "dogecoin",
+      "cache_group": "ranking_selected_download",
+      "calendar_start": "2020-01-01",
+      "pre_listing_days": 0,
+      "rows": 2404,
+      "first_date": "2020-01-01",
+      "last_date": "2026-07-31",
+      "study_rows": 2192,
+      "missing_days": 0,
+      "known_partial_days": 0
+    },
+    {
+      "asset_id": "tron",
+      "cache_group": "ranking_selected_download",
+      "calendar_start": "2020-01-01",
+      "pre_listing_days": 0,
+      "rows": 2404,
+      "first_date": "2020-01-01",
+      "last_date": "2026-07-31",
+      "study_rows": 2192,
+      "missing_days": 0,
+      "known_partial_days": 0
+    }
+  ],
+  "errors": [],
+  "duplicates": [],
+  "missing_days": [
+    {
+      "asset_id": "eos_vaulta",
+      "date_utc": "2025-05-27",
+      "documented": true,
+      "reason": "Trading suspension during EOS to Vaulta migration; no synthetic candle is permitted."
+    }
+  ],
+  "availability_exclusions": [
+    {
+      "asset_id": "solana",
+      "from": "2020-01-01",
+      "through": "2020-08-10",
+      "days": 223,
+      "reason": "source_pair_not_yet_listed",
+      "source": "https://www.binance.com/en/support/announcement/detail/cf77f566c9b64cc791fc152679175de8"
+    }
+  ],
+  "large_close_move_flags": [],
+  "limitations": [
+    "Single venue only; not a consolidated market price.",
+    "Checks do not prove economic accuracy or full intraday tradability.",
+    "A large-move flag is a review trigger, not a reason to delete a price.",
+    "The dataset is not an executable strategy: entry/exit rules and missing-value policies remain to be fixed.",
+    "Cached assets do not define the point-in-time top-five universe; event rankings and additional asset prices remain to be acquired."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "files": [
+    {
+      "path": "raport\\wykresy\\05_obsuniecie_kapitalu.png",
+      "sha256": "8440d67969f5b5eff3dbe5bf2a46dade494fc1908b3a451f76c49e7a72b8f965"
+    },
+    {
+      "path": "raport\\wykresy\\05_obsuniecie_kapitalu.svg",
+      "sha256": "528fa6001bbd57f4f59111aa06da4a7d9966c0f9d07619d5e75aa0cf6565d724"
+    }
+  ],
+  "source": "data/analysis/summary_basket_capital_risk_90d.csv"
+}

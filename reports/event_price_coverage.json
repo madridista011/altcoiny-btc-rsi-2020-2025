@@ -1,0 +1,17 @@
+{
+  "market_price_rows": 25114,
+  "altcoin_count": 11,
+  "event_asset_pairs": 100,
+  "fully_covered_event_asset_pairs": 100,
+  "missing_cases": [],
+  "price_venues": [
+    "binance",
+    "kucoin"
+  ],
+  "quote_currency": "USDT",
+  "benchmark_policy": "BTC on the same venue and same eventual entry/exit dates; BTC RSI signals always use Binance.",
+  "coverage_window": "signal+1 through signal+211, covering up to 31 days before entry plus 180 days holding.",
+  "current_api_symbol_ton": "GRAM-USDT; identity is historical Toncoin, not a new asset selected using future information.",
+  "no_prices_imputed": true,
+  "no_strategy_returns_computed": true
+}

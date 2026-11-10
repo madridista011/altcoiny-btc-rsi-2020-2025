@@ -1,0 +1,22 @@
+{
+  "scope": "Classification of assets encountered before the fifth eligible asset in the 19 required snapshots; not a list chosen by present-day market success.",
+  "coverage_start": "2020-01-01",
+  "coverage_end": "2025-12-31",
+  "assets": {
+    "bitcoin": {"asset_id": "bitcoin", "historical_symbol": "BTC", "eligible": false, "reason": "bitcoin_benchmark"},
+    "ethereum": {"asset_id": "ethereum", "historical_symbol": "ETH", "eligible": true, "reason": "nonstable_nonwrapped_cryptoasset"},
+    "xrp": {"asset_id": "xrp", "historical_symbol": "XRP", "eligible": true, "reason": "nonstable_nonwrapped_cryptoasset"},
+    "bitcoin-cash": {"asset_id": "bitcoin_cash", "historical_symbol": "BCH", "eligible": true, "reason": "nonstable_nonwrapped_cryptoasset"},
+    "bitcoin-sv": {"asset_id": "bitcoin_sv", "historical_symbol": "BSV", "eligible": true, "reason": "nonstable_nonwrapped_cryptoasset"},
+    "litecoin": {"asset_id": "litecoin", "historical_symbol": "LTC", "eligible": true, "reason": "nonstable_nonwrapped_cryptoasset"},
+    "bnb": {"asset_id": "bnb", "historical_symbol": "BNB", "eligible": true, "reason": "nonstable_nonwrapped_cryptoasset"},
+    "cardano": {"asset_id": "cardano", "historical_symbol": "ADA", "eligible": true, "reason": "nonstable_nonwrapped_cryptoasset"},
+    "dogecoin": {"asset_id": "dogecoin", "historical_symbol": "DOGE", "eligible": true, "reason": "nonstable_nonwrapped_cryptoasset"},
+    "solana": {"asset_id": "solana", "historical_symbol": "SOL", "eligible": true, "reason": "nonstable_nonwrapped_cryptoasset"},
+    "tron": {"asset_id": "tron", "historical_symbol": "TRX", "eligible": true, "reason": "nonstable_nonwrapped_cryptoasset"},
+    "gram": {"asset_id": "toncoin", "historical_symbol": "TON", "eligible": true, "reason": "nonstable_nonwrapped_cryptoasset", "cmc_id": 11419, "identity_evidence_file": "data/raw/identity_checks/cryptwatch_gram.json", "identity_note": "API uses the later GRAM label. Its aliases identify TON for all selected 2024 snapshots. Raw fields remain unchanged."},
+    "tether": {"asset_id": "tether_usdt", "historical_symbol": "USDT", "eligible": false, "reason": "stablecoin", "classification_source": "https://tether.to/en/transparency/"},
+    "usd-coin": {"asset_id": "usd_coin", "historical_symbol": "USDC", "eligible": false, "reason": "stablecoin", "classification_source": "https://www.circle.com/usdc"},
+    "binance-usd": {"asset_id": "binance_usd", "historical_symbol": "BUSD", "eligible": false, "reason": "stablecoin", "classification_source": "https://www.paxos.com/assets/busd"}
+  }
+}

@@ -1,0 +1,10 @@
+* text=auto
+*.csv -text
+*.json -text
+*.pdf binary
+*.pptx binary
+*.twbx binary
+*.png binary
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf

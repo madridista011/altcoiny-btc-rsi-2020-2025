@@ -1,0 +1,12 @@
+﻿asset_id,cache_group,calendar_start,pre_listing_days,rows,first_date,last_date,study_rows,missing_days,known_partial_days
+bitcoin,benchmark,2019-01-01,0,2769,2019-01-01,2026-07-31,2192,0,0
+ethereum,initial_download,2020-01-01,0,2404,2020-01-01,2026-07-31,2192,0,0
+xrp,initial_download,2020-01-01,0,2404,2020-01-01,2026-07-31,2192,0,0
+bitcoin_cash,initial_download,2020-01-01,0,2404,2020-01-01,2026-07-31,2192,0,0
+litecoin,initial_download,2020-01-01,0,2404,2020-01-01,2026-07-31,2192,0,0
+eos_vaulta,initial_download,2020-01-01,0,2403,2020-01-01,2026-07-31,2191,1,2
+solana,requested_download,2020-08-11,223,2181,2020-08-11,2026-07-31,1969,0,1
+bnb,ranking_selected_download,2020-01-01,0,2404,2020-01-01,2026-07-31,2192,0,0
+cardano,ranking_selected_download,2020-01-01,0,2404,2020-01-01,2026-07-31,2192,0,0
+dogecoin,ranking_selected_download,2020-01-01,0,2404,2020-01-01,2026-07-31,2192,0,0
+tron,ranking_selected_download,2020-01-01,0,2404,2020-01-01,2026-07-31,2192,0,0

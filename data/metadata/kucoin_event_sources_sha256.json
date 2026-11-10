@@ -1,0 +1,6 @@
+{
+  "data/raw/identity_checks/kucoin_bsv_probe.json": "48c7f211680b1eb7997b08102519c05c87b92d7323d72befe7162016d042ca8c",
+  "data/raw/identity_checks/kucoin_gram_probe.json": "b233a7fe977616b36bd1f47659e0d3274d2462f9aa67814622c17b3c30a7938f",
+  "data/raw/kucoin/2026-11-08/btc_2020.json": "081e06b2e5ab1839030271f92e1735237d48b1a490fa090bcdd71e42df33764c",
+  "data/raw/kucoin/2026-11-08/btc_2024_2025.json": "79a51d98c17be935b821bc013b408b3de172690c884060faf61ffa778a38a166"
+}

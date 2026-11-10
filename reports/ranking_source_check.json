@@ -1,0 +1,145 @@
+{
+  "verification_date": "2026-11-08",
+  "source": "Data: CryptWatch, based on CoinMarketCap",
+  "source_docs": "https://cryptwat.ch/api",
+  "index_snapshot_count": 2215,
+  "first_snapshot": "2013-04-28",
+  "last_snapshot": "2026-11-08",
+  "snapshots_by_study_year": {
+    "2020": 52,
+    "2021": 64,
+    "2022": 346,
+    "2023": 365,
+    "2024": 362,
+    "2025": 365
+  },
+  "calendar_probe": {
+    "method": "Latest stored date strictly before each calendar day; publication time not validated.",
+    "no_earlier_snapshot": [],
+    "maximum_age_days": 9,
+    "older_than_seven_days": [
+      {
+        "potential_signal_date": "2022-03-31",
+        "previous_snapshot_date": "2022-03-23",
+        "age_days": 8
+      },
+      {
+        "potential_signal_date": "2022-04-01",
+        "previous_snapshot_date": "2022-03-23",
+        "age_days": 9
+      }
+    ]
+  },
+  "samples": [
+    {
+      "snapshot_date": "2020-03-08",
+      "rows": 15,
+      "first_15_symbols_as_returned": [
+        "BTC",
+        "ETH",
+        "XRP",
+        "BCH",
+        "USDT",
+        "BSV",
+        "LTC",
+        "EOS",
+        "BNB",
+        "XTZ",
+        "LINK",
+        "ADA",
+        "XLM",
+        "LEO",
+        "TRX"
+      ],
+      "response_as_of": "2026-11-08",
+      "source_file": "data/raw/rankings/cryptwatch/2026-11-08/sample_2020-03-08_response.json"
+    },
+    {
+      "snapshot_date": "2022-04-03",
+      "rows": 20,
+      "first_15_symbols_as_returned": [
+        "BTC",
+        "ETH",
+        "USDT",
+        "BNB",
+        "USDC",
+        "SOL",
+        "XRP",
+        "ADA",
+        "LUNC",
+        "AVAX",
+        "DOT",
+        "DOGE",
+        "BUSD",
+        "USTC",
+        "SHIB"
+      ],
+      "response_as_of": "2026-11-08",
+      "source_file": "data/raw/rankings/cryptwatch/2026-11-08/sample_2022-04-03_response.json"
+    },
+    {
+      "snapshot_date": "2025-06-01",
+      "rows": 20,
+      "first_15_symbols_as_returned": [
+        "BTC",
+        "ETH",
+        "USDT",
+        "XRP",
+        "BNB",
+        "SOL",
+        "USDC",
+        "DOGE",
+        "TRX",
+        "ADA",
+        "HYPE",
+        "SUI",
+        "LINK",
+        "AVAX",
+        "XLM"
+      ],
+      "response_as_of": "2026-11-08",
+      "source_file": "data/raw/rankings/cryptwatch/2026-11-08/sample_2025-06-01_response.json"
+    }
+  ],
+  "cross_check": {
+    "date": "2020-03-08",
+    "first_15_ranked_symbols_match": true,
+    "source": "https://coinmarketcap.com/historical/20200308/",
+    "method": "Order compared with an independently viewed public CMC table; no full database copied."
+  },
+  "raw_files": [
+    {
+      "path": "data/raw/rankings/cryptwatch/2026-11-08/openapi_response.json",
+      "file_written_at_utc": "2026-11-08T12:13:27.459662+00:00",
+      "sha256": "5b8a94fe83f73d8ef61c74e83b50f7d31df2ee3827ff1c605b9a14fa93ab90b7"
+    },
+    {
+      "path": "data/raw/rankings/cryptwatch/2026-11-08/sample_2020-03-08_response.json",
+      "file_written_at_utc": "2026-11-08T12:11:36.088464+00:00",
+      "sha256": "1ce430fd27a2674f35d2001223eff941f8e5e7fb7147b4a3f7146a60708f1809"
+    },
+    {
+      "path": "data/raw/rankings/cryptwatch/2026-11-08/sample_2022-04-03_response.json",
+      "file_written_at_utc": "2026-11-08T12:13:27.018190+00:00",
+      "sha256": "02a972c98fdbc18f6e729c6e2dda3c59df582ffcce3cc6413604eccbc54127db"
+    },
+    {
+      "path": "data/raw/rankings/cryptwatch/2026-11-08/sample_2025-06-01_response.json",
+      "file_written_at_utc": "2026-11-08T12:13:27.209168+00:00",
+      "sha256": "939e6ba109b7fec2f1f73a4317d8044883fb7fea7ffb5f9b2cc1eafc90a45bc0"
+    },
+    {
+      "path": "data/raw/rankings/cryptwatch/2026-11-08/snapshots_response.json",
+      "file_written_at_utc": "2026-11-08T12:11:35.898807+00:00",
+      "sha256": "0c89244bc08a7547720ed2bcc64d3c646887fa52bdaccb55f44893dc07290f31"
+    }
+  ],
+  "status": "Candidate source verified on three samples and calendar only; full event rankings not acquired.",
+  "open_checks": [
+    "Historical publication times and usable lag.",
+    "Date returned by the API may precede the requested date.",
+    "Historical identity and retrospective ticker normalization (e.g. LUNC in an April 2022 response).",
+    "Point-in-time stablecoin and wrapped-token exclusions.",
+    "Price coverage for all coins selected by actual signal dates."
+  ]
+}
