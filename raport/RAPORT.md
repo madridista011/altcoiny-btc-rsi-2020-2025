@@ -630,7 +630,7 @@ Oczekiwany rezultat obejmuje 20 sygnałów, 100 wyborów monet, 300 kompletnych 
 
 CSV są zapisane w UTF-8 z BOM, z przecinkiem jako separatorem pól i kropką dziesiętną. Przy przeglądzie w polskim Excelu należy użyć importu „Dane → Z tekstu/CSV”. Stopy zwrotu w tabelach analizy są zwykle ułamkami, np. 0.05 oznacza 5%; pola zakończone _pp są już w punktach procentowych. Szczegóły podaje docs/SLOWNIK_ZDARZEN.md.
 
-Uzupełniająca analiza MDD kapitału obejmuje 60 osobnych ścieżek i 5 580 obserwacji. Definicje kolumn i zakres publikacji opisano w docs/OBSUNIECIE_KAPITALU.md. Interaktywny wykres obsunięć znajduje się na stronie projektu. Dotychczasowe dashboardy Tableau oraz ośmioslajdowa prezentacja zachowują wcześniejszy zakres ryzyka pojedynczych pozycji.
+Uzupełniająca analiza MDD kapitału obejmuje 60 osobnych ścieżek i 5 580 obserwacji. Definicje kolumn i zakres publikacji opisano w docs/OBSUNIECIE_KAPITALU.md. Dotychczasowe dashboardy Tableau oraz ośmioslajdowa prezentacja zachowują wcześniejszy zakres ryzyka pojedynczych pozycji.
 
 ## Literatura metodyczna
 

@@ -8,8 +8,6 @@ Czy zakup pięciu największych kwalifikujących się altcoinów po sygnale wypr
 
 ## Zobacz projekt
 
-**[Otwórz interaktywne portfolio →](https://madridista011.github.io/altcoiny-btc-rsi-2020-2025/)** — raport, dashboardy i komplet materiałów do pobrania w jednym miejscu.
-
 | Materiał | Co znajdziesz |
 | --- | --- |
 | **[Pełny raport PDF](raport/RAPORT.pdf)** | 27 stron: cel, dane, metodologia, wyniki, pięć wykresów i ograniczenia. |
@@ -17,9 +15,6 @@ Czy zakup pięciu największych kwalifikujących się altcoinów po sygnale wypr
 | **[Dashboardy Tableau](tableau/Altcoiny_RSI_BTC.twbx)** | Dwa dashboardy, siedem wykresów i osadzone dane. [Instrukcja](tableau/INSTRUKCJA.md). |
 | [Prezentacja projektu](prezentacja/Prezentacja.pptx) | Osiem slajdów, trzy edytowalne wykresy i notatki. [Podgląd slajdów](prezentacja/README.md). |
 | [Tabele wynikowe](data/analysis) | Wyniki transakcji, koszyków, kosztów i obsunięcia kapitału w CSV. |
-| **[Interaktywna strona projektu](https://madridista011.github.io/altcoiny-btc-rsi-2020-2025/)** | Porównanie reguł wejścia i wykres obsunięcia dla wybranego sygnału. [Uruchomienie lokalne](docs/ODTWORZENIE.md#interaktywna-strona-projektu). |
-
-![Podgląd interaktywnego porównania koszyka altcoinów z BTC](assets/dashboard.png)
 
 ## Wyniki w skrócie
 
@@ -51,10 +46,9 @@ Mediany maksymalnego obsunięcia kapitału koszyków wyniosły od **−26,85% do
 | `prezentacja/` | Plik PowerPoint oraz obrazy wszystkich slajdów. |
 | `tableau/` | Przenośny skoroszyt, instrukcja i tabele wejściowe. |
 | `data/` | Dane źródłowe, przygotowane tabele, wyniki i manifesty pochodzenia. [Opis danych](data/README.md). |
-| `scripts/` i `tests/` | Kod przygotowania, obliczeń, wykresów, strony oraz testy. |
+| `scripts/` i `tests/` | Kod przygotowania danych, obliczeń i wykresów oraz testy. |
 | `config/` i `reports/` | Parametry badania i wyniki kontroli. |
 | `docs/` | Metodologia, słowniki, źródła i instrukcja odtworzenia. |
-| `web/` | Źródła interaktywnej strony projektu. |
 
 ## Odtworzenie wyników
 

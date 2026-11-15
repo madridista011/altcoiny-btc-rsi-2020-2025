@@ -109,11 +109,6 @@
   },
   "raw_files": [
     {
-      "path": "data/raw/rankings/cryptwatch/2026-11-08/openapi_response.json",
-      "file_written_at_utc": "2026-11-08T12:13:27.459662+00:00",
-      "sha256": "5b8a94fe83f73d8ef61c74e83b50f7d31df2ee3827ff1c605b9a14fa93ab90b7"
-    },
-    {
       "path": "data/raw/rankings/cryptwatch/2026-11-08/sample_2020-03-08_response.json",
       "file_written_at_utc": "2026-11-08T12:11:36.088464+00:00",
       "sha256": "1ce430fd27a2674f35d2001223eff941f8e5e7fb7147b4a3f7146a60708f1809"

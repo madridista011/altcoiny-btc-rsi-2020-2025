@@ -24,4 +24,4 @@ Obliczenia: python scripts/analyze_basket_drawdown.py. Kontrole: python -m unitt
 
 Dzienne ceny nie odtwarzają dokładnych śróddziennych obsunięć. Nie wolno średniej MDD monet nazywać MDD koszyka. Nie wolno skrajnego MDD z 20 osobnych okien nazywać obsunięciem jednego konta za lata 2020–2025. Taki portfel wymagałby osobnego modelu finansowania nakładających się sygnałów.
 
-Nowa miara jest dostępna w pełnym raporcie, na stronie projektu i w CSV. Dotychczasowy skoroszyt Tableau i ośmioslajdowa prezentacja zachowują wcześniejszy zakres; wykres ryzyka pozycji w tych materiałach przedstawia cenowe MAE pojedynczych monet.
+Nowa miara jest dostępna w pełnym raporcie i w CSV. Dotychczasowy skoroszyt Tableau i ośmioslajdowa prezentacja zachowują wcześniejszy zakres; wykres ryzyka pozycji w tych materiałach przedstawia cenowe MAE pojedynczych monet.

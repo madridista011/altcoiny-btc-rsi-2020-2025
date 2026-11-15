@@ -21,17 +21,6 @@ Opcja `--full` rozpoczyna od przygotowania cen, obliczenia RSI, identyfikacji sy
 
 W `reports/` znajdują się wyniki kontroli. Publiczne manifesty zawierają parametry źródeł, daty pobrania oraz sumy odpowiedzi. Pominięto pola opisujące środowisko i nagłówki identyfikacyjne pobierania; sumy samych manifestów dotyczą wersji w repozytorium. Dane cenowe i rankingowe zachowują oryginalne wartości.
 
-## Interaktywna strona projektu
-
-Do zbudowania strony wystarcza biblioteka standardowa Pythona:
-
-```bash
-python scripts/build_site.py
-python -m http.server 8000 --directory _site
-```
-
-Otwórz `http://localhost:8000`. Strona zawiera raport, podgląd slajdów, pobieranie pliku Tableau, porównanie median stóp zwrotu oraz wykres obsunięcia kapitału dla wybranego sygnału i reguły. Źródła strony są w `web/`, a wygenerowane pliki w pomijanym przez Git katalogu `_site/`.
-
 ## Tableau i prezentacja
 
 Otwórz `tableau/Altcoiny_RSI_BTC.twbx` w Tableau Public. Oba ekstrakty są osadzone, więc przeglądanie nie wymaga podłączania CSV. Zmiana CSV nie aktualizuje ekstraktów automatycznie. Szczegóły filtrów i interpretacji miar znajdują się w [instrukcji Tableau](../tableau/INSTRUKCJA.md).

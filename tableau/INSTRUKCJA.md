@@ -52,7 +52,7 @@ Natywne ekstrakty utworzono w Tableau Public. W repozytorium znajduje się gotow
 
 Pakiet przechowuje statyczny stan analizy. Nowy eksport CSV nie odświeża automatycznie ekstraktów. Zmiana danych wymaga odtworzenia ekstraktów w Tableau, ponownego eksportu i sprawdzenia wyników. Do normalnego korzystania wystarczy plik TWBX.
 
-Uzupełniająca analiza maksymalnego obsunięcia kapitału całych koszyków jest dostępna w pełnym raporcie, na stronie projektu oraz w data/analysis/basket_capital_risk_90d.csv i basket_capital_path_90d.csv. Nie została dodana do ekstraktów tego skoroszytu. Jej definicja różni się od cenowych MAE/MDD pojedynczych pozycji; szczegóły podaje docs/OBSUNIECIE_KAPITALU.md.
+Uzupełniająca analiza maksymalnego obsunięcia kapitału całych koszyków jest dostępna w pełnym raporcie oraz w data/analysis/basket_capital_risk_90d.csv i basket_capital_path_90d.csv. Nie została dodana do ekstraktów tego skoroszytu. Jej definicja różni się od cenowych MAE/MDD pojedynczych pozycji; szczegóły podaje docs/OBSUNIECIE_KAPITALU.md.
 
 Oznaczenie źródeł: **Data: CryptWatch, based on CoinMarketCap**. Ceny: Binance Spot / Binance Vision oraz KuCoin. Metodologię i warunki korzystania ze źródeł opisano w raporcie oraz w pliku docs/ZRODLA_DANYCH.md.
 
